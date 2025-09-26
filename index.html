@@ -636,12 +636,12 @@
         <div class="step active" id="step1">
             <div class="glass-card">
                 <div class="icon">🎊</div>
-                <h1>Special Alert!</h1>
-                <h2>Someone Amazing is Getting Older! 🎉</h2>
-                <p>But don't worry... they're only getting more awesome! ✨</p>
+                <h1> oh its your Special day Alert!</h1>
+                <h2>Hari Krishna is Getting Older! 🎉</h2>
+                <p>But don't worry... you'll only getting more awesome! ✨</p>
                 
                 <div class="input-group">
-                    <label>👋 Who's sending this special surprise?</label>
+                    <label>👋 Who’s the mastermind behind this awesome surprise?</label>
                     <input type="text" id="senderName" placeholder="Enter your name..." maxlength="30" />
                 </div>
                 
@@ -659,9 +659,12 @@
                 <p>Every great celebration needs the perfect timing! 🕐</p>
                 
                 <div class="input-group">
-                    <label>📅 When should we celebrate this special person?</label>
+                    <label>📅 Enter your "Welcome to Earth" date!</label>
                     <input type="date" id="birthdayDate" />
                 </div>
+                <p style="font-size: 0.9em; color: #f9f9f9; margin-top: 5px;">
+                   Hint: This is the day history truly began… your birthday! 🎉
+                </p>
                 
                 <div class="loading" id="loading">
                     <p>Preparing something magical...</p>
@@ -694,15 +697,14 @@
                 <div class="celebration-emoji">🎂</div>
                 
                 <div class="memory-card">
-                    <p><strong>Another year of incredible achievements!</strong> 🌟</p>
-                    <p>Your dedication, creativity, and positive energy make every project better. May this new year bring you even more success, joy, and amazing opportunities!</p>
-                </div>
+                    <p><strong>Another year of awesomeness unlocked!</strong> 🌟</p>
+                    <p>May your year be filled with epic wins, laughter that echoes through the office, and unexpected moments of joy. Keep being the superstar you are!</p>
 
                 <div class="memory-card">
                     <p><strong>What makes you special:</strong></p>
-                    <p>✨ Your innovative problem-solving skills<br>
-                    🤝 The way you bring teams together<br>
-                    💡 Your brilliant ideas that inspire us all<br>
+                    <p>✨ Brain that’s always cooking up genius ideas<br>
+                    🤝 Team glue that keeps us all together<br>
+                    💡 Creativity that sparks inspiration everywhere<br>
                     😊 The positive energy you share every day</p>
                 </div>
                 
@@ -781,7 +783,7 @@ function nextStep(step) {
                     return;
                 }
                 if (senderName.toLowerCase() !== 'nusrath') {
-                    showToast('Hey Hari, it\'s Nusrath! 😉 Please enter the correct name.');
+                    showToast('Hey Hari, it\'s Nusrath! 😉 Please type my name.');
                     document.getElementById('senderName').value = '';
                     document.getElementById('senderName').focus();
                     return;
